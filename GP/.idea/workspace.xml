@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3d89207-87ac-42a0-a267-f32dde4eeafa" name="Default" comment="" />
+    <list default="true" id="0c770f98-01e0-4572-944e-177f6324b1d4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,12 +12,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Exercise4_10.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exercise4_10.java">
+      <file leaf-file-name="GP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="264">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +41,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Exercise4_10.java" />
+        <option value="$PROJECT_DIR$/src/GP.java" />
       </list>
     </option>
   </component>
@@ -70,20 +72,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Exercise4_10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise4_10" type="462c0819:PsiDirectoryNode" />
+              <item name="GP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -111,9 +113,9 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Exercise4_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Exercise4_10" />
+      <option name="MAIN_CLASS_NAME" value="GP" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -122,7 +124,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Exercise4_10" />
+      <module name="GP" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -201,7 +203,7 @@
     </configuration>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Exercise4_10" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GP" />
       </list>
     </recent_temporary>
   </component>
@@ -213,17 +215,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c3d89207-87ac-42a0-a267-f32dde4eeafa" name="Default" comment="" />
-      <created>1518560778511</created>
+      <changelist id="0c770f98-01e0-4572-944e-177f6324b1d4" name="Default" comment="" />
+      <created>1518563045287</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1518560778511</updated>
-      <workItem from="1518560781664" duration="1552000" />
+      <updated>1518563045287</updated>
+      <workItem from="1518563048651" duration="2820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1552000" />
+    <option name="totallyTimeSpent" value="2820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
@@ -271,11 +273,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Exercise4_10.java">
+    <entry file="file://$PROJECT_DIR$/src/GP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="264">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
