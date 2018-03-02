@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 public class CountInteger {
     static Scanner input = new Scanner(System.in);
@@ -7,7 +8,6 @@ public class CountInteger {
     static int total;
 
     public static void main(String[] args) {
-
         System.out.print("Enter integers, input ends with 0: ");
         int index = 0;
         do {
