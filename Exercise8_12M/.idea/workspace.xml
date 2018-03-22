@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd12232e-f5e5-4e63-8e11-cb723a13b792" name="Default" comment="" />
+    <list default="true" id="f5f9593b-9a27-4c22-bbfd-549c9d88c2a1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Exercise8_1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exercise8_1.java">
+      <file leaf-file-name="Exercise8_12M.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exercise8_12M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            <state relative-caret-position="153">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +41,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Exercise8_1.java" />
+        <option value="$PROJECT_DIR$/src/Exercise8_12M.java" />
       </list>
     </option>
   </component>
@@ -73,20 +73,20 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Exercise8_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise8_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercise8_12M" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercise8_12M" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,17 +196,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dd12232e-f5e5-4e63-8e11-cb723a13b792" name="Default" comment="" />
-      <created>1521699136231</created>
+      <changelist id="f5f9593b-9a27-4c22-bbfd-549c9d88c2a1" name="Default" comment="" />
+      <created>1521700053293</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1521699136231</updated>
-      <workItem from="1521699139147" duration="916000" />
+      <updated>1521700053293</updated>
+      <workItem from="1521700056555" duration="523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="916000" />
+    <option name="totallyTimeSpent" value="523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -251,10 +251,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Exercise8_1.java">
+    <entry file="file://$PROJECT_DIR$/src/Exercise8_12M.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="153">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
