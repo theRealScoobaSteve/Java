@@ -1,11 +1,18 @@
-public class test {
+public class Foo {
+    int i;
+    static int s;
+
     public static void main(String[] args) {
-        int[] x = {0, 1, 2, 3, 4, 5};
-        xMethod(x, 5);
+        Foo f1 = new Foo();
+        System.out.println("f1.i is " + f1.i + " f1.s is " + f1.s);
+        Foo f2 = new Foo();
+        System.out.println("f2.i is " + f2.i + " f2.s is " + f2.s);
+        Foo f3 = new Foo();
+        System.out.println("f3.i is " + f3.i + " f3.s is " + f3.s);
     }
 
-    public static void xMethod(int[] x, int length) {
-        for (int i = 0; i < length; i++)
-            System.out.print(" " + x[i]);
+    public Foo() {
+        i++;
+        s++;
     }
 }

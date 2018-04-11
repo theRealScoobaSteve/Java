@@ -4,41 +4,43 @@ import java.util.Arrays;
 public class Exercise9_12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter rectangle: ");
-        String input= sc.nextLine();
-        String[] data = input.split(" ");
+        double sLength = 0.0;
+        rect fourRect;
+        rect threeRect;
+        rect threeRect2;
+        rect fourRect2;
 
         while( sc.hasNext() ) {
-            int length = data.length;
+            System.out.println("Enter rectangle: ");
+            String input= sc.nextLine();
+            String[] data = input.split(" ");
 
-            if( length == 3 ) {
-                double sLength = Double.parseDouble( data[3] );
-                sLength *= 2;
-                rect myRect = new rect( sLength, sLength );
-                System.out.printf( "perimeter: %.2f" + "\n", myRect.getPerimeter() );
-                System.out.printf( "area: %.2f" + "\n", myRect.getArea() );
-            }
-            else {
-                rect rect1 = new rect( Double.parseDouble( data[0] ), Double.parseDouble( data[1] ),
-                                        Double.parseDouble( data[2] ), Double.parseDouble( data[3] ) );
-                if( rect1.( data ) ) {
-                    System.out.println( "contains: true" );
-                }
-                else {
-                    System.out.println( "contains: false" );
-                }
-
-                if( overlaps( data ) ) {
-                    System.out.println( "overlaps: true" );
-                }
-                else {
-                    System.out.println( "overlaps: false" );
-                }
-            }
+            sLength = Double.parseDouble( data[3] );
+            sLength *= 2;
+            threeRect = new rect( sLength, sLength );
+            System.out.printf( "perimeter: %.2f" + "\n", threeRect.getPerimeter() );
+            System.out.printf( "area: %.2f" + "\n", threeRect.getArea() );
 
             System.out.println("Enter rectangle: ");
             input = sc.nextLine();
             data = input.split(" ");
+
+            fourRect = new rect( Double.parseDouble( data[0] ), Double.parseDouble( data[1] ),
+                    Double.parseDouble( data[2] ), Double.parseDouble( data[3] ) );
+
+            if( threeRect.contains( fourRect ) ) {
+                System.out.println( "contains: true" );
+            }
+            else {
+                System.out.println( "contains: false" );
+            }
+
+            if( threeRect.overlaps( fourRect ) ) {
+                System.out.println( "overlaps: true" );
+            }
+            else {
+                System.out.println( "overlaps: false" );
+            }
         }
     }
 }
